@@ -1,1 +1,11 @@
-<h1>Todo List</h1>
+
+<div class="App">
+  <div class="todo-wrapper">
+    <app-header></app-header>
+    <app-todo-input></app-todo-input>
+
+    <div *ngFor="let todo of todoService.getTodos()">
+      <app-todo-item [todo]="todo"></app-todo-item>
+    </div>
+  </div>
+</div>

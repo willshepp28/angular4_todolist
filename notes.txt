@@ -1,1 +1,7 @@
 ng serve - to start server
+
+ng g c <component-name>  - to create a new component
+
+ng g service <service-name> - to generate services
+
+ng g class <class-name> - to generate classes
